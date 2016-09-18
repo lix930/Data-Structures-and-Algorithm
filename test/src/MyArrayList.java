@@ -102,7 +102,7 @@ public class MyArrayList<AnyType> implements Iterable<AnyType> {
 
         @Override
         public AnyType next() {
-            if(!hasNext())
+            if (!hasNext())
                 throw new NoSuchElementException();
             return theItems[current++];
         }
