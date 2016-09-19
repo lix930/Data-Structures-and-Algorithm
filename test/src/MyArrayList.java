@@ -111,5 +111,6 @@ public class MyArrayList<AnyType> implements Iterable<AnyType> {
         public void remove() {
             MyArrayList.this.remove(--current);
         }
+
     }
 }
